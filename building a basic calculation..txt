@@ -1,0 +1,21 @@
+#building a basic calculation.
+
+num1 = input("enter a number:")
+num2 = input("enter another number:")
+result = num1 + num2
+
+print(result)
+
+
+#string 2.
+num1 = input("enter a number:")
+num2 = input("enter another number:")
+result = int(num1) + int(num2)
+
+
+#string 3.
+
+num1 = input("enter a number:")
+num2 = input("enter another number:")
+result = float(num1) + float(num2) 
+
