@@ -1,0 +1,105 @@
+#building a basic calculation.
+
+num1 = input("enter a number:")
+num2 = input("enter another number:")
+result = num1 + num2
+
+print(result)
+
+
+#string 2.
+num1 = input("enter a number:")
+num2 = input("enter another number:")
+result = int(num1) + int(num2)
+
+
+#string 3.
+
+num1 = input("enter a number:")
+num2 = input("enter another number:")
+result = float(num1) + float(num2) 
+
+
+
+
+# building a better calculator :
+
+num1 = float(input("enter first number: "))
+
+op = input("enter operator: ")
+
+num2 = float(input("enter second number: "))
+
+
+
+if op=="+":
+
+    print(num1 + num2)
+
+elif op == "-":
+
+    print(num1 - num2)
+
+elif op=="/":
+
+    print(num1 / num2)
+
+elif op == "*":
+
+    print(num1 * num2)
+
+else:
+
+    print("invalid operator")
+
+
+
+
+
+#building a guessing game :
+
+secret_word = "snake"
+
+guess = ""
+
+
+while guess != secret_word :
+
+     guess = input("enter guess: ")
+
+     
+print("you win")
+
+
+# string 2:
+
+secret_word = "snake"
+
+guess = ""
+
+guess_count = 0
+
+guess_limit = 3
+
+out_of_guesses = False
+ 
+while guess != secret_word and not(out_of_guesses) :
+
+    if guess_count < guess_limit:
+
+     guess = input("enter guess: ")
+
+     guess_count += 1
+
+
+    else:
+
+        out_of_guesses = True
+
+if out_of_guesses:
+
+    print("Out of Guesses, YOU LOSE !")
+
+else:
+
+    print("you win !")
